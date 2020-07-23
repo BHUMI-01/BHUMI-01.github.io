@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1"/>
+        <title>
+            survey form
+        </title>
+        <link rel="stylesheet" type="text/css" href="survey.css">
+    </head>
+    <body>
+        <div class="heading">
+            <div class="logo"><img src="img.jpg"></div>
+            <div class="survey"><h1>SURVEY FORM</h1>
+            <hr><br>&nbsp&nbspAbout you.....
+            </div>
+        </div>
+        <div class="form">
+            <form class="container-fluid">
+                <fieldset>
+                        <legend>Personalia:</legend>
+                        <p>
+                            <div class="inside-form">
+                                <label for="name">Name : </label>
+                                <input type="text" id="fname" name="name" placeholder="Enter your Name"><br>
+                        
+                                <label for="age">Age   :  </label>
+                                <input type="text" id="age" name="age" placeholder="How old you are?">  <br>
+                        
+                                <label for="email">Email :  </label>
+                                <input type="email" id="gmail" placeholder="Enter your email"><br>
+                                
+                                <label for="gender">Gender : </label>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label><br>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label><br>
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label for="other">Other</label><br>
+                            
+                                <label for="post">Current role:</label>
+                                <select id="post" name="posts">
+                                    <option>Select an option</option>
+                                  <option value="TEACHER">Teacher</option>
+                                  <option value="DOCTOR">Doctor</option>
+                                  <option value="ENGINEER">Engineer</option>
+                                  <option value="STUDENT">Student</option>
+                                </select>
+                                <br><br>
+                                
+                                <label for="nationlity" class="nation">Nationality :  </label>
+                                <input type="text" id="nation" placeholder="Nation"><br><br>
+                            
+                                <label for="degree">Highest-Degree :</label>
+                                <input type="checkbox" id="degree1" name="degree1" value="diploma">
+                                <label for="diploma">Diploma</label><br>
+                                <input type="checkbox" id="degree2" name="degree2" value="graduation">
+                                <label for="graduation">B.tech</label><br>
+                                <input type="checkbox" id="degree3" name="degree3" value="postgraduation">
+                                <label for="postgraduation">M.tech</label><br>
+
+                                <label for="phone">PH-Number:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="012-3456-7890" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required><br><br>
+                            
+                            
+                                <label for="field">Area in which you are interested :  </label>
+                                <select id="field" name="fields"><br>
+                                    <option>Select an option</option>
+                                    <option value="FRONT END PROJECTS">Front-end projects</option>
+                                    <option value="DATA ANALYSIS">Data Analysis</option>
+                                    <option value="ARTIFICIAL INTELLIGENCE">Artificial Intelligence</option>
+                                    <option value="MACHINE LEARNING">Machine Learning</option>
+                                </select>
+                                <br><br><br><br> 
+                                <label for="about" class="gap">Describe yourself in few words:  </label>
+                                <input type="text" id="about" name="about" placeholder="About you.....">
+                                <br>
+                                <p class="submit">
+                                    <input type="submit" value="Submit" class="sub">
+                                    <input type="reset" id="reset" class="sub">
+                                </p>
+                            </div>
+                        </p>    
+                </fieldset>
+            </form>
+        </div>  
+    </body>
+</html> 
