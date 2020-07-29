@@ -1,0 +1,153 @@
+/* hero image css */
+
+.banner{
+	background:url("backgroundimgs/cup.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height:100vh;
+	background-size: cover;
+	
+
+}
+.banner-context{
+
+	color:#fff;
+	padding-top:170px;
+	width:50%;
+	padding-left:20px;
+}
+.banner-context span{
+	font-size:18px;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+.banner-context h1{
+	font-style: italic;
+	margin-bottom: 10px;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: 4px;
+font-family: 'Noto Serif',serif;
+}
+.banner-context p{
+	border-left:2px solid white;
+	padding-left:5px;
+}
+@media(max-width:390px){
+	.banner-context{
+		padding-top:140px;
+	}
+}
+ @media (max-width:900px){
+	
+	.banner-context span{
+		font-size:11px;
+	}
+	.banner-context h1{
+		font-size:27px;
+	}
+}
+
+
+/* MENU CSS */
+
+.menu{
+	letter-spacing: 4px;
+	color:#C70039;
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+	font-size:40px;
+	font-weight: 800;
+	margin:0 24px;
+	background-color:#ffe4a3;
+	border-radius: 8px;
+	padding: 20px;
+	
+}
+.coffee1,.coffee2,.coffee3{
+	padding-top:24px;
+	padding-bottom:24px;
+	 display:flex; 
+}
+#cappucino,#americano,#espresso{
+	height:auto;
+	width: 100%;
+	border-radius:8px;
+}
+.coffee-inside1,.coffee-inside2,.coffee-inside3{
+	padding: 12px 24px;
+}
+#cappucino-heading,#americano-heading,#espresso-heading
+{
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+	font-weight:500;
+	margin:10px 0;
+	letter-spacing: 2px;
+	font-size:36px;
+	color:#C70039;
+}
+.para{
+	text-align: center;
+	line-height:25px;
+	font-size: 18px;
+}
+
+ .cappucino-text,.americano-text,.espresso-text{
+	margin:12px 24px;
+	border-radius:8px;
+	background-color: #ffe4a3; 
+	
+ }
+
+@media only screen and (max-width: 991px)
+{
+	 .coffee1,.coffee2,.coffee3{
+		flex-wrap: wrap;
+		 justify-content: center;
+		align-items: center; 
+	} 
+	#cappucino,#americano,#espresso{
+		width:100%;
+	}
+	.coffee2{
+		flex-direction: column-reverse;
+	}
+}  
+
+
+
+
+
+/* FOOTER CSS */
+.site-footer{
+	max-width:100%;
+	background-color:#ffe4a3;
+	padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 0px;
+  font-family: 'Noto Serif' ,serif;
+  
+}
+.footer-info{
+	color:#C70039;
+	font-weight: 600;
+	text-align: center;
+		  
+			   border-radius: 12px;
+}
+.thick{
+	height:5px;
+		background:#6f0000;
+}
+
+.social-links{
+  padding-left: 55px;
+padding-right: 55px;
+padding-top: 0px;
+font-size: 8px;
+font-weight: 600;
+}
+.social-links a{
+	color:black;
+}
